@@ -1,0 +1,154 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>长大图书馆管理系统</title>
+<link rel="stylesheet" type="text/css" href="css/style2.0.css">
+<style type="text/css">
+	ul li{font-size: 30px;<!--color:#2ec0f6;-->}
+	.tyg-div{
+		--z-index:-1000;
+		float:left;
+		position:absolute;
+		left:5%;
+		top:20%;
+		}
+	.tyg-p{
+		font-size: 14px;
+	    font-family: 'STCAIYUN';
+	    position: absolute;
+	    top: 135px;
+	    left: 60px;
+	}
+	.tyg-div-denglv{
+		<!--z-index:1000;-->
+		float:right;
+		position:absolute;
+		right:3%;top:0%;
+	}
+	.tyg-div-form{
+		background-color:#46A3FF;
+		border-style:solid;
+		
+		border-radius:10px;
+		width:300px;
+		height:auto;
+		margin:120px auto 0 auto;
+		color:#ACD6FF;
+	}
+	.tyg-div-form form {padding:10px;}
+	.tyg-div-form form input[type="text"]{
+		width: 270px;
+	    height: 30px;
+	    margin: 25px 10px 0px 0px;
+	}
+	.tyg-div-form form button {
+	    cursor: pointer;
+	    width: 270px;
+	    height: 44px;
+	    margin-top: 25px;
+	    padding: 0;
+	    background: #00BFFF;
+	    -moz-border-radius: 6px;
+	    -webkit-border-radius: 6px;
+	    border-radius: 6px;
+	    border: 1px solid #2ec0f6;
+	
+	    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	    font-size: 16px;
+	    font-weight: 700;
+	    color: #fff;
+	  
+	    -o-transition: all .2s;
+	    -moz-transition: all .2s;
+	    -webkit-transition: all .2s;
+	    -ms-transition: all .2s;
+}
+#login_click{ margin-top:10px; height:40px;margin-right:5px;}  
+#login_click a   
+{  
+    text-decoration:none;  
+    color:#f2f2f2;  
+    
+    font-size:16px;  
+    font-family: 微软雅黑,宋体,Arial,Helvetica,Verdana,sans-serif;  
+    font-weight:700;
+   
+    border-radius:6px;  
+      
+    -webkit-transition:all linear 0.30s;  
+    -moz-transition:all linear 0.30s;  
+    transition:all linear 0.30s;  
+    
+    }  
+   #login_click a:hover {background:CCCCFF; } 	
+	
+
+</style>
+    <body background="img/12_副本.jpg">
+
+        <div class="tyg-div">
+            <ul>
+                <li><div style="color:white"><i>书</div></li>
+                <li><div style="margin-left:20px;color:white">籍</div></li>
+                <li><div style="margin-left:40px;color:white">是</div></li>
+                <li><div style="margin-left:60px;color:white">人</div></li>
+                <li><div style="margin-left:80px;color:white">类</div></li>
+                <li><div style="margin-left:100px;color:white">进</div></li>
+                <li><div style="margin-left:120px;color:white">步</div></li>
+                <li><div style="margin-left:140px;color:white">的</div></li>
+                <li><div style="margin-left:160px;color:white">阶</div></li>
+                <li><div style="margin-left:180px;color:white">梯</div></li></i>
+            </ul>
+        </div>
+        <div id="contPar" class="contPar">
+            <div id="page1" style="z-index:1;">
+                <!--说明page1在本区块中顶部显示-->
+                <div class="title0" style="color:white;"><b>长安大学图书馆管理系统</div><br>
+                <div class="title1" style="color:#ff7575;"><b>好读书，不求甚解 ————陶渊明</div>
+                <div class="imgGroug">
+                    <ul>
+                        <img alt="" class="img0 png" src="./img/page1_0.png">
+                        <img alt="" class="img1 png" src="./img/page1_1.png">
+                        <img alt="" class="img2 png" src="./img/page1_2.png">
+
+                    </ul>
+                </div>
+                <img alt="" class="img3 png" src="./img/">
+            </div>
+        </div>
+        <div class="tyg-div-denglv">
+            <div class="tyg-div-form">
+                <form action="index.php" method="post">
+                    <h2 style="color:white;">用户登录与注册</h2>
+                    <hr style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="270px" color="white">
+                    <div style="margin:5px 0px;">
+                        <input type="text" name="id" placeholder="请输入账号..." />
+                    </div>
+                    <div style="margin:5px 0px;">
+                        <input type="text" name="password" placeholder="请输入密码..." />
+                      <button type="summit">用户登录</button>      
+                </form>
+               
+                <div id="login_click" style="margin:30px 0px;">  
+        <a  style=" background:#00BFFF ;  padding: 10px 95px 15px 100px;"  href="jinru.html">管理员登录</a>
+		
+</div>	
+		<div id="login_click" style="margin:5px 0px;"> 
+<a  style=" background:#00BFFF;  padding: 10px 120px 15px 120px;"  href="enroll.html">注册</a> 
+</div> 
+            </div>
+        </div>
+
+
+
+        <script type="text/javascript" src="./js/jquery-1.8.0.min.js"></script>
+        <script type="text/javascript" src="./js/com.js"></script>
+
+
+    </body>
+</html>
+</body>
+</html>
